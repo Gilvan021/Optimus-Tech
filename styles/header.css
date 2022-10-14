@@ -1,0 +1,59 @@
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em 5em;
+
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+
+}
+
+.nav__texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-cinza);
+}
+
+.nav__menu {
+    margin-right: 25em;
+
+}
+
+.nav__lista {
+    display: flex;
+}
+
+.nav__link {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 2em;
+    color: var(--cinza-cabecalho);
+    text-decoration: none;
+}
+
+.nav__botoes {
+    display: flex;
+    align-items: center;
+}
+
+.botao__nav {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-cabecalho);
+    margin-right: 2em;
+    text-decoration: none;
+}
+
+.botao__cadastar {
+    background-color: var(--cor-vermelha);
+    border: 1px solid ;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: var(--cor-branco)
+
+}

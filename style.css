@@ -1,0 +1,21 @@
+@import url(styles/header.css);
+@import url(styles/cabecalho.css);
+@import url(styles/metricas.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/footer.css);
+
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-cinza: #3A404E;
+    --cinza-cabecalho: #667085;
+    --cor-vermelha: #8E2424;
+    --cor-branco: #FFFFFF;
+    --cor-preto: #101828;
+    --back-fundo: rgba(196, 25, 25, 0.03);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+}
